@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="SpaceX">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Info"/>
+        </menu>
+    </item>
+
+    <item android:title="Launches">
+        <menu>
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="Search"/>
+            <item
+                android:id="@+id/nav_next"
+                android:icon="@drawable/ic_navigate_next_black_24dp"
+                android:title="Next"/>
+            <item
+                android:id="@+id/nav_latest"
+                android:icon="@drawable/ic_today_black_24dp"
+                android:title="Previous"/>
+            <item
+                android:id="@+id/nav_all"
+                android:icon="@drawable/ic_date_range_black_24dp"
+                android:title="All"/>
+            <item
+                android:id="@+id/nav_upcoming"
+                android:icon="@drawable/ic_event_note_black_24dp"
+                android:title="Upcoming"/>
+            <item
+                android:id="@+id/nav_past"
+                android:icon="@drawable/ic_autorenew_black_24dp"
+                android:title="Launched"/>
+        </menu>
+    </item>
+</menu>
